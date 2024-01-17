@@ -8,5 +8,14 @@ public class Main {
         System.out.println("dog="+dog);
         System.out.println("cat="+cat);
         System.out.println("paper="+paper);
+
+        dog=dog+2;
+        cat=cat+2;
+        paper=paper+2;
+        System.out.println("Список значений переменных:");
+        System.out.println("dog="+dog);
+        System.out.println("cat="+cat);
+        System.out.println("paper="+paper);
+
     }
 }
