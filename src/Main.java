@@ -25,5 +25,12 @@ public class Main {
         System.out.println("cat="+cat);
         System.out.println("paper="+paper);
 
+        var friend=19;
+        System.out.println("Приравняли "+friend);
+        friend=friend*2;
+        System.out.println("Умножили "+friend);
+        friend=friend/19;
+        System.out.println("Поделили "+friend);
+
     }
 }
