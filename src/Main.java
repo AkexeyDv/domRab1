@@ -31,5 +31,14 @@ public class Main {
         System.out.println("Умножили "+friend);
         friend=friend/19;
         System.out.println("Поделили "+friend);
+
+        var frog=3.5;
+        System.out.println("Приравняли "+frog);
+        frog=frog*10;
+        System.out.println("Умножили "+frog);
+        frog=frog/3.5;
+        System.out.println("Поделили "+frog);
+        frog=frog+4;
+        System.out.println("Добавили "+frog);
     }
 }
