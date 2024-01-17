@@ -31,6 +31,5 @@ public class Main {
         System.out.println("Умножили "+friend);
         friend=friend/19;
         System.out.println("Поделили "+friend);
-
     }
 }
