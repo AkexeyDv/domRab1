@@ -55,6 +55,16 @@ public class Main {
         delta=sport1%sport2;
         System.out.println(delta);
 
+        var time=640;
+        var partTime=8;
+        var collegi=time/partTime;
+        System.out.println("Всего сотрудников в компании - "+collegi+" человек");
+        collegi=collegi+94;
+        time=partTime*collegi;
+        System.out.println("Если в компании работает "+collegi+" человек, " +
+                "то всего "+time+" часов работы может быть поделено между сотрудниками");
+
+
 
 
     }
